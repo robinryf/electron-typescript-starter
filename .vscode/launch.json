@@ -1,0 +1,27 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch Electron App",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceRoot}\\main.js",
+			"stopOnEntry": false,
+			"args": [],
+			"runtimeExecutable": "${workspaceRoot}\\node_modules\\.bin\\electron.cmd",
+			"runtimeArgs": [
+				"--nolazy"
+			],
+			"env": {},
+			"externalConsole": false,
+			"sourceMaps": false,
+			"outDir": null
+		},
+		{
+			"name": "Attach",
+			"type": "node",
+			"request": "attach",
+			"port": 5858
+		}
+	]
+}
