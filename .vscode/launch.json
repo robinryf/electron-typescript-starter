@@ -5,7 +5,7 @@
 			"name": "Launch Electron App",
 			"type": "node",
 			"request": "launch",
-			"program": "${workspaceRoot}\\main.js",
+			"program": "${workspaceRoot}\\dist\\local\\main.js",
 			"stopOnEntry": false,
 			"args": [],
 			"runtimeExecutable": "${workspaceRoot}\\node_modules\\.bin\\electron.cmd",
