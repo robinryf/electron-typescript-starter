@@ -17,6 +17,7 @@
     "electron-prebuilt": "^0.37.2",
     "gulp": "^3.9.1",
     "gulp-tsb": "^1.10.2",
+    "gulp-watch": "^4.3.5",
     "typescript": "^1.7.5"
   }
 }
