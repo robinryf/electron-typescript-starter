@@ -1,3 +1,5 @@
+/// <reference path="../typings/main.d.ts" />
+
 import * as electron from 'electron'; 
 import {remote} from 'electron'; 
 const app = remote.app;
