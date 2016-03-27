@@ -35,7 +35,7 @@
 	"isShellCommand": true,
 	"tasks": [
 		{
-			"taskName": "watch",
+			"taskName": "default",
 			"args": [
 				"--no-color"
 			],
