@@ -6,6 +6,8 @@
     },
     "exclude": [
         "node_modules",
-        "dist"
+        "dist",
+        "typings/browser.d.ts",
+        "typings/browser"
     ]
 }

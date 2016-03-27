@@ -1,0 +1,8 @@
+{
+  "name": "electron_test",
+  "version": false,
+  "ambientDependencies": {
+    "github-electron": "github:DefinitelyTyped/DefinitelyTyped/github-electron/github-electron.d.ts#f11e49cfb77f99678657ddfe5d43017849675c64",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#f11e49cfb77f99678657ddfe5d43017849675c64"
+  }
+}
