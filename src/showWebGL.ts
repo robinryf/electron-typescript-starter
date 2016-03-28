@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function()
         
         // load ascii model
         var jsonLoader = new THREE.JSONLoader();
-        jsonLoader.load("obj/html5rocks.js", function (geometry) 
+        jsonLoader.load("resources/html5rocks.js", function (geometry) 
         {
         createScene(geometry);
         });
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function()
     function createScene(geometry:THREE.Geometry)
     {
         
-        var map = new THREE.TextureLoader().load("obj/UV_Grid_Sm.jpg");
+        var map = new THREE.TextureLoader().load("resources/UV_Grid_Sm.jpg");
         map.wrapS = map.wrapT = THREE.RepeatWrapping;
         map.anisotropy = 16;
         
