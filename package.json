@@ -1,13 +1,10 @@
 {
-  "name": "electron_test",
+  "name": "electron-typescript-starter",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "tsc",
-    "prestart": "npm run build",
-    "start": "electron .",
-    "pack": "electron-packager . sample --out=dist --arch=x64 --platform=win32 --overwrite --prune --ignore=dist --ignore=typings --ignore=.vscode --ignore=.gitignore --ignore=tsconfig.json --ignore=tsd.json --ignore=.*\\.ts --ignore=.*\\.md"
+    "pack": "electron-packager ./dist/local --platform=win32 --arch=x64 --out=dist --overwrite --prune"
   },
   "repository": {},
   "author": "",
@@ -19,7 +16,6 @@
     "gulp-tsb": "^1.10.2",
     "gulp-watch": "^4.3.5",
     "three": "^0.75.0",
-    "tsd": "^0.6.5",
     "typescript": "^1.7.5",
     "typings": "^0.7.9"
   }
